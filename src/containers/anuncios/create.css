@@ -1,0 +1,57 @@
+.create-container .align {
+  display: flex;
+  align-items: center;
+}
+
+.create-container .head {
+  background-color: #333;
+  font-size: 20px;
+  padding: 4px 0;
+  margin-top: 10px;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.create-container .hide {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.create-container .custom {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #75b2e1;
+}
+
+.create-container .label {
+  margin-right: 20px;
+}
+
+.create-container .radio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.create-container textarea {
+  width: 100%;
+  background-color: #c6d8e6;
+  padding: 12px 0 0 12px;
+  color: #333;
+}
+
+.create-container .btn {
+  float: right;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 16px;
+  background-color: #1e9bfb;
+  color: #ddd;
+  font-weight: bold;
+}

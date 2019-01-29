@@ -1,0 +1,23 @@
+.anuncio-box {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.top-anuncio {
+  background-color: #c6d8e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 10px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 14px 10px;
+  font-size: 14px;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
